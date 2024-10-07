@@ -2,7 +2,6 @@
 node_modules/
 
 # ClearVision build & test files
-public/
 test/
 
 # Script files
