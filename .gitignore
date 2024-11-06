@@ -9,3 +9,4 @@ test/
 scripts/
 lib/selectors/*.diff
 addons/
+detect_and_replace.py

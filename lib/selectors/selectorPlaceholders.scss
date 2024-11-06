@@ -823,13 +823,13 @@
 .form_a7d72e {
   @extend %chatForm !optional;
 }
-.channelTextArea_d0696b {
+.channelTextArea_bdf0de {
   @extend %channelTextArea !optional;
 }
-.scrollableContainer_d0696b {
+.scrollableContainer_bdf0de {
   @extend %channelTextAreaScrollable !optional;
 }
-.inner_d0696b {
+.inner_bdf0de {
   @extend %channelTextAreaInner !optional;
 }
 .attachWrapper_f298d4 {
@@ -844,13 +844,13 @@
 .attachButtonPlus_f298d4 {
   @extend %channelTextAreaAttachButtonPlus !optional;
 }
-.textArea_d0696b {
+.textArea_bdf0de {
   @extend %textArea !optional;
 }
 .placeholder_a552a6 {
   @extend %textAreaPlaceholder !optional;
 }
-.textAreaSlate_d0696b {
+.textAreaSlate_bdf0de {
   @extend %slateTextArea !optional;
 }
 .button_f9af59 {
@@ -865,10 +865,10 @@
 .text_d7ebeb {
   @extend %channelTextAreaTypingText !optional;
 }
-.attachedBars_d0696b {
+.stackedBars_bdf0de {
   @extend %channelTextAreAttachedBar !optional;
 }
-.stackedAttachedBar_d0696b {
+.stackedAttachedBar_bdf0de {
   @extend %channelTextAreaStackedAttachedBar !optional;
 }
 .upload_df1eaf {
@@ -2782,7 +2782,7 @@ pre {
 .questName_c2d7e2 {
   @extend %discoverQuestItemName !optional;
 }
-.debugPanelStandalone_feab95 {
+.container_feab95 {
   @extend %connectionDebugPopout !optional;
 }
 .popoutText_c73c22 {
@@ -3297,6 +3297,12 @@ pre {
 }
 .roleRow_a930f1 {
   @extend %guildSettingsRoleRow !optional;
+}
+.movedTable_dd2627 {
+  @extend %guildSettingsMembersMoved !optional;
+}
+.bannerContainer_cc2901 {
+  @extend %guildSettingsShowMembersInChannelList !optional;
 }
 .roleRowDisableHover_a930f1 {
   @extend %guildSettingsRoleRowDisabled !optional;
@@ -4071,6 +4077,9 @@ pre {
 .checkmark_f9902b {
   @extend %serverInviteTick !optional;
 }
+.default_a467ac {
+  @extend %serverInviteCancel !optional;
+}
 .textContainer_d8e2d0 {
   @extend %textContainer !optional;
 }
@@ -4229,6 +4238,12 @@ pre {
 }
 .emptyText_f02fcf {
   @extend %emptyActiveNowText !optional;
+}
+.wrapper_a18c91 {
+  @extend %promotedQuestActivity !optional;
+}
+.promotedTagBackground_a4a2b0 {
+  @extend %promotedQuestPill !optional;
 }
 .button_a24e84 {
   @extend %quickReactButton !optional;
@@ -4899,11 +4914,23 @@ pre {
 .picker_cd703d {
   @extend %soundboard !optional;
 }
-.soundButton_f40049 {
+.refresh_cd703d {
+  @extend %refresh !optional;
+}
+.soundButtonRefresh_f40049 {
   @extend %soundboardSound !optional;
 }
-.categoryIcon_ceda83.selected_ceda83 {
-  @extend %soundboardGuildSelected !optional;
+.soundNameRefresh_f40049 {
+  @extend %soundboardSoundName !optional;
+}
+.soundAddButtonRefresh_c06ee5 {
+  @extend %soundboardAdd !optional;
+}
+.soundAddTextRefresh_c06ee5 {
+  @extend %soundboardAddText !optional;
+}
+.secondaryButtonRefresh_f40049 {
+  @extend %soundboardSecondaryButton !optional;
 }
 .keybindHint_c66e5e {
   @extend %soundboardHint !optional;
@@ -5444,6 +5471,9 @@ pre {
 .rowContainer_e5da8b {
   @extend %appPopoutRowItem !optional;
 }
+.rowDivider_e5da8b {
+  @extend %appPopoutRowItemUnderline !optional;
+}
 .viewMore_b7ba1b {
   @extend %appPopoutViewMore !optional;
 }
@@ -5485,6 +5515,12 @@ pre {
 }
 .container_fb1469 {
   @extend %appPopoutLearnMore !optional;
+}
+.clickable_b78bb6 {
+  @extend %appPopoutSearchItem !optional;
+}
+.underline_b78bb6 {
+  @extend %appPopoutSearchItemUnderline !optional;
 }
 .emojiCounter_cf5d0a {
   @extend %webhookEmojiRow !optional;
