@@ -15,7 +15,7 @@
 
 <div align="center">
 
-# ClearVision v6
+# JarVision v6
 
 [![code style: prettier][prettier-badge]][prettier-link]
 [![Language: Sass][sass-badge]][sass-link]
